@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo</title>
+    <style>
+        .gray {
+            fill: #ECECEC;
+        }
+
+        .white {
+            fill: #FFFFFF;
+        }
+
+        .light-orange {
+            fill: #F16524;
+        }
+
+        .orange {
+            fill: #E54C21;
+        }
+    </style>
+</head>
+
+<body>
+    <svg width="512" height="512">
+        <!-- "HTML" title -->
+        <polygon points="110,69 132,69 132,45 154,45 154,69 176,69 176,1 154,1 154,23 132,23 132,1 110,1"></polygon> //H
+        <polygon points="187,1 187,23 208,23 208,69 230,69 230,23 250,23 250,1"></polygon> //T
+        <polygon points="261,1 261,69 283,69 283,35 298,60 315,35 315,69 337,69 337,1 315,1 298,25 283,1"></polygon> //M
+        <polygon points="349,1 349,69 405,69 405,46 373,46 373,1"></polygon> //L
+        <!-- Logo -->
+        <polygon class="orange" points="75,100 110,470 257,511 405,470 440,100"></polygon> //orange background
+        <polygon class="light-orange" points="257,130 406,130 378,449 257,480"></polygon> //light-orange inserted
+        background
+        <polygon class="white" points="370,176 366,222 257,222 257,176"></polygon> //top left gray "5" line
+        <polygon class="white" points="257,268 257,315 311,315 308,371 257,385 257,435 351,408 362,268">
+        </polygon> //bottom left gray "5" line
+        <polygon class="gray" points="257,176 257,222 194,222 198,268 257,268 257,315 155,315 143,176"></polygon> //top
+        right white "5" line
+        <polygon class="gray" points="257,385 207,374 203,336 157,336 164,409 257,435"></polygon> //bottom right white
+        "5" line
+    </svg>
+</body>
+
+</html>
