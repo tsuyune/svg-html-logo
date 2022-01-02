@@ -1,1 +1,1 @@
-[GitHub Pages](https://toshiteshigure.github.io/svg-html-logo/)
+[GitHub Pages](https://tsuyune.github.io/svg-html-logo/)
